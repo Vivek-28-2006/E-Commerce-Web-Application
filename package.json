@@ -1,0 +1,14 @@
+{
+  "name": "e-commerce-web-application",
+  "version": "1.0.0",
+  "description": "Basic full-stack e-commerce app with role-based access and JSON file storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^11.0.3"
+  }
+}
