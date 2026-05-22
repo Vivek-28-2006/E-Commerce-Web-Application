@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Commerce App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>E-Commerce Web Application</h1>
+  <section>
+    <h2>Login</h2>
+    <input id="username" placeholder="username" />
+    <input id="password" type="password" placeholder="password" />
+    <button onclick="login()">Login</button>
+    <p id="loginStatus"></p>
+  </section>
+
+  <section>
+    <h2>Products</h2>
+    <button onclick="loadProducts()">Refresh Products</button>
+    <ul id="productList"></ul>
+  </section>
+
+  <section>
+    <h2>Cart</h2>
+    <button onclick="loadCart()">Refresh Cart</button>
+    <button onclick="checkout()">Checkout</button>
+    <ul id="cartList"></ul>
+  </section>
+
+  <section>
+    <h2>Orders</h2>
+    <button onclick="loadOrders()">Refresh Orders</button>
+    <ul id="ordersList"></ul>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

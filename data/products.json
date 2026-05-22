@@ -1,0 +1,16 @@
+[
+  {
+    "id": "p1",
+    "name": "Wireless Mouse",
+    "description": "Ergonomic Bluetooth mouse",
+    "price": 29.99,
+    "stock": 50
+  },
+  {
+    "id": "p2",
+    "name": "Mechanical Keyboard",
+    "description": "RGB backlit keyboard",
+    "price": 89.99,
+    "stock": 30
+  }
+]
